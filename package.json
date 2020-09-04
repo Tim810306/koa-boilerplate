@@ -1,0 +1,47 @@
+{
+  "name": "koa-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "rimraf dist && webpack -w",
+    "build": "rimraf dist && webpack --env.prod",
+    "lint": "eslint 'src/**/*.js'",
+    "test": "jest \"src/.*\\.js$\" --coverage --detectOpenHandles --forceExit",
+    "_codecov": "codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tim810306/koa-boilerplate.git"
+  },
+  "author": "Tim Cheng",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "babel-loader": "^8.0.5",
+    "codecov": "^3.2.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.1.0",
+    "nodemon-webpack-plugin": "^4.0.7",
+    "prettier": "^1.18.2",
+    "process-envify": "^0.1.3",
+    "rimraf": "^2.6.3",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
