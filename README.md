@@ -7,7 +7,7 @@ Follow steps to execute this boilerplate.
 1. Clone this boilerplate
 
 ```bash
-$ git clone --depth 1 https://github.com/Shyam-Chen/Koa-Play.git <PROJECT_NAME>
+$ git clone --depth 1 https://github.com/Tim810306/koa-boilerplate.git <PROJECT_NAME>
 $ cd <PROJECT_NAME>
 ```
 
