@@ -1,4 +1,4 @@
-# Koa Play
+# Koa Boilerplate
 
 ## Getting Started
 
